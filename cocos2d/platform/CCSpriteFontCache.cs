@@ -15,7 +15,15 @@ namespace Cocos2D
         }
 
         private static ContentManager _contentManager;
+
+        
+        
+#if SIMSIP_ALL
+        // SIMSIP: Want standardized camel-case for folder names
+        public static string FontRoot = "Fonts";
+#else
         public static string FontRoot = "fonts";
+#endif
 
         private static Dictionary<string, int[]> _registeredFonts = new Dictionary<string, int[]>(StringComparer.OrdinalIgnoreCase);
         private static Dictionary<string, FontMapEntry> _loadedFontsMap = new Dictionary<string, FontMapEntry>();

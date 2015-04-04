@@ -20,7 +20,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Windows8\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;NETFX_CORE;WINRT;WINDOWS;MONOGAME</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;NETFX_CORE;WINRT;WINDOWS;MONOGAME;SIMSIP_ALL;SIMSIP_STORE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,7 +30,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Windows8\Release\</OutputPath>
-    <DefineConstants>TRACE;NETFX_CORE;WINRT;MONOGAME</DefineConstants>
+    <DefineConstants>TRACE;NETFX_CORE;WINRT;MONOGAME;SIMSIP_ALL;SIMSIP_STORE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -1189,7 +1189,7 @@
       <Project>{b81b6701-7a78-4846-bf6f-04e0591f0f38}</Project>
       <Name>box2d.Windows8</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MonoGame\MonoGame.Framework.Net\MonoGame.Framework.Net.Windows8.csproj">
+    <ProjectReference Include="..\MonoGame\MonoGame.Framework\MonoGame.Framework.Net.Windows8.csproj">
       <Project>{a65b8326-1ddd-4e5d-8130-e74f70919e81}</Project>
       <Name>MonoGame.Framework.Net.Windows8</Name>
     </ProjectReference>

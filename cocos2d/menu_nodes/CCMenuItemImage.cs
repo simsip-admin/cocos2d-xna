@@ -7,7 +7,12 @@ namespace Cocos2D
         public CCMenuItemImage() : this(null, null, null, null)
         {
         }
-
+#if SIMSIP_ALL
+        public CCMenuItemImage(Action<CCMenuItem> selector)
+            : this(null, null, null, selector)
+        {
+        }
+#endif
         public CCMenuItemImage(string normalImage, string selectedImage)
             :this(normalImage, selectedImage, null, null)
         {
