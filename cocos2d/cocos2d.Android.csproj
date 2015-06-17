@@ -31,7 +31,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Android\Release\</OutputPath>
-    <DefineConstants>TRACE;ANDROID;OPENGL;GLES;MONOGAMESIMSIP_ALL;SIMSIP_ANDROID</DefineConstants>
+    <DefineConstants>TRACE;ANDROID;OPENGL;GLES;MONOGAME;SIMSIP_ALL;SIMSIP_ANDROID</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
